@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    color:#FFF2E7;
+    font-size: 60px;
+}
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    padding: bottom 15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #ECD6C4;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondContentText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ECD6C4;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    padding-top: 30px;
+    border-top: 0.4px solid #FFF2E7;
+    font-size: 30px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.footerImg {
+    height: 45px;
+}
