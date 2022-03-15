@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
 }
 
 body {
@@ -34,12 +33,15 @@ a {
     margin: 20px;
 }
 
+main {
+    border-top: 0.2px solid #ECD6C4;
+}
+
 h1 {
     font-family: 'Righteous', cursive;
     color:#FFF2E7;
     font-size: 60px;
 }
-
 
 .mainContent {
     display: flex;
