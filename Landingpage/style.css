@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body {
@@ -16,6 +17,12 @@ header {
     color: #FFF2E7;
     font-weight: 400;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
 }
 
 .navbar {
